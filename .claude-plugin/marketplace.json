@@ -1,0 +1,16 @@
+{
+  "name": "super-agent-marketplace",
+  "owner": {
+    "name": "manjureddy"
+  },
+  "metadata": {
+    "description": "Local marketplace for the Super Agent plugin (router + workers workflow for Claude Code)."
+  },
+  "plugins": [
+    {
+      "name": "super-agent",
+      "source": "./super-agent",
+      "description": "One router agent you hand all your tasks to. It reads a ticket board, hands ready tickets to worker agents in their own worktrees, checks results against each ticket's eval.md, and only comes to you when there's a choice to make."
+    }
+  ]
+}

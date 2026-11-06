@@ -1,0 +1,10 @@
+{
+  "name": "super-agent",
+  "version": "1.1.0",
+  "description": "Router + workers workflow for Claude Code: write tickets (rd.md + eval.md + BOARD.md), then run one router agent that hands ready tickets to workers, a watchdog, a merger, a checker, a tester and a reproducer.",
+  "author": {
+    "name": "manjureddy"
+  },
+  "license": "MIT",
+  "keywords": ["agents", "router", "workers", "tickets", "worktrees", "agent-teams", "watchdog"]
+}

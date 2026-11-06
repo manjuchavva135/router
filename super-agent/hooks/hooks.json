@@ -1,0 +1,16 @@
+{
+  "description": "Super Agent: a worker may not stop until its work is committed on its branch and results.md is written.",
+  "hooks": {
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/worker-stop-check.mjs\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
