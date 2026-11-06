@@ -91,20 +91,33 @@ apps (tester, checker and reproducer drive a real browser with it).
 
 ### 2. Install the plugin (once per machine)
 
-Inside Claude Code:
+From GitHub ([manjuchavva135/router](https://github.com/manjuchavva135/router), private - uses your
+saved git login), inside Claude Code:
 
 ```
-/plugin marketplace add C:\Users\wicon_user\Desktop\deepseek
+/plugin marketplace add manjuchavva135/router
 /plugin install super-agent@super-agent-marketplace
 ```
 
 Same thing from a terminal:
 
 ```bash
-claude plugin marketplace add C:\Users\wicon_user\Desktop\deepseek
+claude plugin marketplace add manjuchavva135/router
 ```
 ```bash
 claude plugin install super-agent@super-agent-marketplace
+```
+
+From the local folder instead (for editing the plugin itself):
+
+```bash
+claude plugin marketplace add C:\Users\wicon_user\Desktop\deepseek
+```
+
+After you push changes to GitHub, pull them into Claude Code:
+
+```bash
+claude plugin marketplace update super-agent-marketplace
 ```
 
 Try it for one session without installing:

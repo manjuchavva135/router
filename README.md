@@ -8,7 +8,7 @@ you when there's a choice to make.
 Install from Claude Code:
 
 ```
-/plugin marketplace add <github-user>/super-agent
+/plugin marketplace add manjuchavva135/router
 /plugin install super-agent@super-agent-marketplace
 ```
 
